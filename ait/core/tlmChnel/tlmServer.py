@@ -20,7 +20,7 @@ class UDPServer(object):
 	
 if __name__ == '__main__':
 	log.info('Starting Telemetry Channel Server')
-	tlmChannel(':9000').serve_forever()
+	UPDServer(':9000').serve_forever()
 
 
 
