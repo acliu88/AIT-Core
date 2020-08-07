@@ -28,7 +28,7 @@ def sender(host, timeout=1):
             print ("send", rand)
             sock.sendto(str(rand), host)
             sleep(.1)
-    print "sender finished"
+    print ("sender finished")
 
 def plain_datagram_server(host, port, time):
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
